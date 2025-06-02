@@ -8,20 +8,29 @@
 }
 
 body {
-  margin: 20px;
   background-color: #f4f4f4;
   color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 h1 {
   color: tan;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 .container {
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1000px;
 }
 h2 {
   color: tan;
